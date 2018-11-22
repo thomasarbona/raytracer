@@ -1,0 +1,50 @@
+# Example 2
+camera:
+ position: 0 0 3
+ kepsilon: 0.0001
+
+plane:
+ position: 0 -1 0
+ color: 200 200 200
+ reflection: .1
+
+plane:
+ rotation: 0 0 180
+ position: 0 -5 0
+ color: 200 200 200
+ reflection: .1
+
+sphere:
+ position: 1 0 -2
+ color: 200 200 200
+ parameter: 1
+
+sphere:
+ position: -4 0 -3
+ color: 200 200 200
+ parameter: 1
+
+sphere:
+ position: 0 -.9 0
+ parameter: .1
+ color: 200 200 200
+
+cylinder:
+ rotation: 0 0 45
+ position: 0 0 -4
+ color: 200 0 200
+ parameter: 1 5
+
+light:
+ position: 0 0 3
+ power: .5
+
+light:
+ position: -2 2 0
+ color: 35 0 255
+ power: .7
+
+light:
+ position: -1 2 1
+ color: 125 0 50
+ power: .7
